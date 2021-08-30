@@ -1,0 +1,117 @@
+body{
+    overflow-y: scroll;
+}
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+input::-webkit-search-cancel-button {
+    display: none;
+  }
+ /* header  start */
+header{
+    width:100%;
+    height: 44px;
+    background: #E43130;
+}
+header .bar{
+    position: relative;
+    width: 100%;
+    overflow:hidden;
+}
+header .bar .menu{
+    position: absolute;
+    top:0px;
+    left:0px;
+    display:inline-block;
+    width: 40px;
+    height: 44px;
+    background:url(images/menu.png) no-repeat 0 0;
+    background-size:20px 18px;
+    margin-top:14px;
+    margin-left:15px;
+}
+header .bar .sh-bx{
+    position: relative;
+     margin:7px 52px 7px 50px;
+     height: 30px;
+     background:#F7F7F7;
+     border-radius:15px;
+}
+header .bar .sh-bx .jd{
+   
+    position: relative;
+    position: absolute;
+    top:8px;
+    left:15px;
+    display:inline-block;
+    width: 20px;
+    height: 15px;
+    background:url(images/jd.png) no-repeat 0 0;
+    background-size:20px 15px;
+
+}
+header .bar .sh-bx .jd::after{
+    content:'';
+    clear:both;
+    display:block;
+    position: absolute;
+    top:0px;
+    left:26px;
+    width: 1px;
+    height: 16px;
+    background:#DDDDDD;
+
+}
+
+/* header .bar .sh-bx .col-line{
+    position: absolute;
+    top:0px;
+    left:40px;
+    line-height: 30px;
+    display:inline-block;
+    color:#DDDDDD;
+    width: 1px;
+} */
+header .bar .sh-bx .sou{
+    position: absolute;
+    top:8px;
+    left:51px;
+    display:inline-block;
+    width: 14px;
+    height: 15px;
+    background:url(images/jd-sprites.png) no-repeat -83px 0;
+    background-size:200px;
+    
+}
+header .bar .sh-bx .sh-input{
+    height: 30px;
+    border-radius:15px;
+    margin-left:60px;
+    background:#F7F7F7;
+  overflow:hidden;
+}
+header .bar .sh-bx .sh-input>input{
+    width: 100%;
+    height: 100%;
+    outline:none;
+    border:none;
+    font-size:12px;
+    background:#F7F7F7;
+    padding-left:18px;
+    padding-top:1px;
+}
+header .bar .login{
+    position: absolute;
+    top:0px;
+    right:0px;
+    display:inline-block;
+    height: 44px;
+    margin-right: 12px;
+    margin-top:10px;
+    color:white;
+    font-size:14px;
+}
+  /* header  end */
