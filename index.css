@@ -195,3 +195,35 @@ header .bar .login{
     background:red;
 }
   /* slide end */
+/* bx-wrap start */
+.bx-wrap{
+    width: 100%;
+    height: 30%;
+}
+.bx-wrap>.img-bx{
+    width: 100%;
+    height: 100%;
+    padding-top:30px;
+    padding-bottom:15px;
+}
+.bx-wrap>.img-bx>li{
+    float:left;
+    width: 20%;
+    height: 100%;
+    margin-bottom:20px;
+}
+.bx-wrap>.img-bx>li>a{
+    display:inline-block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color:#666666;
+}
+.bx-wrap>.img-bx>li>a>h3{
+  
+}
+.bx-wrap>.img-bx>li>a>img{
+    width: 100%;
+    height: 100%;
+}
+/*bx-wrap end*/
