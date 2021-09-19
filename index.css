@@ -146,7 +146,7 @@ header .bar .login{
     width: 100%;
     height: 200%;
 }
-.banner .slide .circles{
+/* .banner .slide .circles{
     position: absolute;
     bottom:10px;
     left:50%;
@@ -166,7 +166,7 @@ header .bar .login{
 }
 .banner .slide .circles li.active{
     background:red;
-}
+} */
   /* slide end */
 /* bx-wrap start */
 .bx-wrap{
@@ -192,9 +192,7 @@ header .bar .login{
     text-decoration: none;
     color:#666666;
 }
-.bx-wrap>.img-bx>li>a>h3{
-  
-}
+
 .bx-wrap>.img-bx>li>a>img{
     width: 100%;
     height: 100%;
