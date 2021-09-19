@@ -127,32 +127,6 @@ header .bar .login{
     border-radius:12px;
     overflow:hidden;
 }
-@keyframes slide{
-    0%,100%{
-        transform:translateX(0);
-    }
-    12.5%{
-        transform:translateX(-100%);
-    }
-    25%{
-        transform:translateX(-200%);
-    }
-    37.5%{
-        transform:translateX(-300%);
-    }
-    50%{
-        transform:translateX(-400%);
-    }
-    62.5%{
-        transform:translateX(-500%);
-    }
-    75%{
-        transform:translateX(-600%);
-    }
-    87.5%{
-        transform:translateX(-700%);
-    }
-}
 .banner .slide .bx{
     width: 800%;
     height: 100px;
@@ -162,7 +136,6 @@ header .bar .login{
     float:left;
     width: 12.5%;
     height: 100%;
-    animation:slide 14s infinite;
 }
 .banner .slide .bx li a{
     display:inline-block;
